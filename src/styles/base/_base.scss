@@ -23,3 +23,17 @@ button:disabled {
 .is-active {
   font-weight: bold;
 }
+
+ul{
+  clear: both;
+  padding: 0;
+  li {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    margin-left: 20px;
+    a {
+      text-decoration: none;
+    }
+  }
+}
