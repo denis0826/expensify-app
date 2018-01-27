@@ -1,7 +1,10 @@
 import React from 'react';
 
-export default () => (
-  <div>
-    This is from my Edit Expense Page component!
-  </div>
-);
+export default (props) => {
+  console.log(props)
+  return (
+    <div>
+      Editing the expense with id of {props.match.params.id}
+    </div>
+  )
+};
